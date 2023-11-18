@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.canvas {
+    width: calc(100vw - 10px);
+    height: calc(100vh - 10px);
+    margin: 0px auto;
+}
+
+#canvas {
+    width: 500px;
+    height: 500px;
+}
+
+polygon.block {
+    fill-opacity: 1; stroke: black;
+}
+
+polygon.block.c3 {
+    stroke: rgb(33, 43, 82);
+}
